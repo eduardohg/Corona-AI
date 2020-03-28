@@ -1,0 +1,31 @@
+.corpo{
+    margin-top: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    padding-right: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 5px;
+}
+
+body{
+    background-color: #F7F7F7;
+    margin: 0;
+}
+
+#iframe-dialogflow{
+    border-style: solid;
+    border-width: 1px;
+}
