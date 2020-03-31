@@ -725,7 +725,7 @@ img {
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
-	height: 490px;
+	height: 350px;
 	overflow: hidden;
 	text-align: center;
 	float: left;
@@ -1725,7 +1725,7 @@ img {
 	}
 
 	.corpo{
-		margin-top: 100px;
+		margin-top: 55px;
 		width: auto;
 		display: flex;
 		flex-direction: row;
@@ -1745,6 +1745,7 @@ img {
 	#iframe-dialogflow{
 		border-style: solid;
 		border-width: 1px;
+		border-radius: 10px;
 	}
 
 
