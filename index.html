@@ -68,8 +68,13 @@
 	<header id="header_outer">
 		<div class="container">
 			<div class="header_section">
-				<div class="logo"><a href="javascript:void(0)"><img src="img/logo_horizontal.png" width="140px" height="40px" alt=""></a></div>
-				<nav class="nav" id="nav">
+				<div class="logo"><a href="javascript:void(0)"><img src="img/logo-uel.png" width="55px" height="35px" alt=""></a></div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li id="nome_uel">Universidade Estadual de Londrina</li>
+					</ul>
+				</div>
+				<nav class="nav" id="nav" style="margin-top: -24px;">
 					<ul class="toggle">
 						<li><a href="#agente">Home</a></li>
 						<li><a href="#service">Descrição</a></li>
@@ -89,23 +94,30 @@
 	<!--Top_content-->
 	<section id="agente">
 		<div class="container">
-			<h2>Agente Inteligente</h2>
-			<div class="corpo">
-				<!--<img src="img/uel_extenso.png" width="250px" height="75px" style="margin: 5px;">-->
-				<div class="informacoes">
-					<div class="service_block">
-						<p class="animated fadeInDown wow">Este projeto visa o desenvolvimento de tecnologia de difusão e avaliação de veracidade em notícias para o combate à epidemia do Coronavirus, tendo como base soluções de tecnologias de informação e inteligência artificial acessível amplamente pelas mais diversas modalidades de comunicação digital.
-							Espera-se desta forma mitigar o efeito nocivo de mensagens e notícias falsas (fake news), bem como responder dúvidas e questionamentos da sociedade a cerca do Coronavirus.
-							Para começar, mande suas perguntas para o CoronaAI ao lado.
-						</p>
+			<h2>Corona AI</h2>
+			<div class="service_area">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="service_block">
+							<p class="animated fadeInDown wow">Corona AI é um agente inteligente criado usando processamento de linguagem natural e inteligência artificial para tratar do assunto Coronavirus. <br><br>
+								É um projeto da Universidade Estadual de Londrina (UEL) que visa o desenvolvimento de tecnologia para difusão e avaliação de veracidade em notícias e sanar dúvidas para o combate à epidemia do Coronavirus.<br> <br>
+								Espera-se desta forma mitigar o efeito nocivo de mensagens e notícias falsas (fake news), bem como responder dúvidas e questionamentos da sociedade a cerca do Coronavirus. <br><br>
+								
+								Para começar, mande suas perguntas para o CoronaAI ao lado.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="service_block">
+							<iframe id="iframe-dialogflow"
+							allow="microphone;"
+							width="350"
+							height="430"
+							src="https://console.dialogflow.com/api-client/demo/embedded/868e9ffb-47d9-430e-8ff0-1c07a2ca0d01">
+						</iframe>
+						</div>
 					</div>
 				</div>
-				<iframe id="iframe-dialogflow"
-					allow="microphone;"
-					width="350"
-					height="430"
-					src="https://console.dialogflow.com/api-client/demo/embedded/868e9ffb-47d9-430e-8ff0-1c07a2ca0d01">
-				</iframe>
 			</div>
 		</div>
 	</section>
@@ -135,44 +147,21 @@
 					<div class="col-lg-4">
 						<div class="service_block">
 							<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
-							<h3 class="animated fadeInUp wow">top Security</h3>
-							<p class="animated fadeInDown wow">Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+							<h3 class="animated fadeInUp wow">Fake News</h3>
+							<p class="animated fadeInDown wow">Este sistema utilizará uma plataforma construída sob bases confiáveis. Considerando que os sistemas de mensagens instantâneas estão entre os meios de maior propagação de notícias falsas, a proposta deste projeto está vinculada a utilizar tal solução tecnológica como interface para validação das mais diversas notícias.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--Service-->
-
-	
-	<!--main-section-end-->
-
-	<!--new_portfolio-->
-
-	<!--/Portfolio -->
-
-	<!--new_portfolio-->
-
-	<!--
-<section class="main-section paddind" id="Portfolio">
-	<div class="container">
-    	<h2>Portfolio</h2>
-    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
-	</div>
-
-
-</section>
-
--->
-
 	
 	<!--c-logo-part-end-->
 	<section class="main-section team" id="team">
 		<!--main-section team-start-->
 		<div class="container">
 			<h2>Colaboradores</h2>
-			<h6>Lorem ipsum</h6>
 			<div class="team-leader-block clearfix">
 				
 				<div class="team-leader-box">
@@ -223,97 +212,80 @@
 					<span class="wow fadeInDown delay-09s">Estagiário Iniciação Científica</span>
 					<p class="wow fadeInDown delay-09s">Departamento de Computação da UEL.</p>
 				</div>
+				<div class="team-leader-box">
+					<!--
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic3.jpg" alt="">
+						<ul>
+							<li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+							<li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+							<li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+							<li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+						</ul>
+					</div>-->
+					<h3 class="wow fadeInDown delay-09s">Alberto Durán González</h3>
+					<span class="wow fadeInDown delay-09s">Colaboradores</span>
+					<p class="wow fadeInDown delay-09s">Departamento de Saúde Coletiva e Gabinete Geral da UEL</p>
+				</div>
+				<div class="team-leader-box">
+					<!--
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic3.jpg" alt="">
+						<ul>
+							<li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+							<li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+							<li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+							<li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+						</ul>
+					</div>-->
+					<h3 class="wow fadeInDown delay-09s">Sérgio Henrique Gerelus</h3>
+					<span class="wow fadeInDown delay-09s">Colaborador</span>
+					<p class="wow fadeInDown delay-09s">Comunicação da UEL</p>
+				</div>
+				<div class="team-leader-box">
+					<!--
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic3.jpg" alt="">
+						<ul>
+							<li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+							<li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+							<li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+							<li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+						</ul>
+					</div>-->
+					<h3 class="wow fadeInDown delay-09s">Arthur Eumann Mesas</h3>
+					<span class="wow fadeInDown delay-09s">Colaborador</span>
+					<p class="wow fadeInDown delay-09s">Departamento de Saúde Coletiva da UEL e Centro de Estudos Sociosanitarios da Universidade de Castilla-La Mancha, Espanha</p>
+				</div>
+				<div class="team-leader-box">
+					<!--
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+						<img src="img/team-leader-pic3.jpg" alt="">
+						<ul>
+							<li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+							<li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+							<li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+							<li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+						</ul>
+					</div>-->
+					<h3 class="wow fadeInDown delay-09s">Renne Rodrigues</h3>
+					<span class="wow fadeInDown delay-09s">Colaborador</span>
+					<p class="wow fadeInDown delay-09s">Departamento de Saúde Coletiva da UEL</p>
+				</div>
 			</div>
 		</div>
 	</section>
-	<!--main-section team-end-->
-	<!--
-	<section class="twitter-feed">
-		--twitter-feed
-		<div class="container  animated fadeInDown delay-07s wow">
-			<div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>
-			<p> When you're the underdog, your only option is to make #waves if you want to succeed. How much <br> and how often should you be drinking coffee?</p>
-			<span>About 28 mins ago</span> </div>
-	</section>-->
-	<!--twitter-feed-end-->
 	<footer class="footer_section" id="contact">
-		<!--
-		<div class="container">
-			<section class="main-section contact" id="contact">
-				<div class="contact_section">
-					<h2>Contact Us</h2>
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="contact_block">
-								<div class="contact_block_icon rollIn animated wow"><span><i class="fa-home"></i></span></div>
-								<span> 308 Negra Arroyo Lane, <br>
-              Albuquerque, NM, 87104 </span> </div>
-						</div>
-						<div class="col-lg-4">
-							<div class="contact_block">
-								<div class="contact_block_icon icon2 rollIn animated wow"><span><i class="fa-phone"></i></span></div>
-								<span> 1-800-BOO-YAHH </span> </div>
-						</div>
-						<div class="col-lg-4">
-							<div class="contact_block">
-								<div class="contact_block_icon icon3 rollIn animated wow"><span><i class="fa-pencil"></i></span></div>
-								<span> <a href="mailto:hello@butterfly.com"> hello@butterfly.com</a> </span> </div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 wow fadeInLeft">
-						<div class="contact-info-box address clearfix">
-							<h3>Don’t be shy. Say hello!</h3>
-							<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-							<p>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquampor id.</p>
-						</div>
-						<ul class="social-link">
-							<li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
-							<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa-facebook"></i></a></li>
-							<li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa-pinterest"></i></a></li>
-							<li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa-google-plus"></i></a></li>
-							<li class="dribbble animated bounceIn wow delay-06s"><a href="javascript:void(0)"><i class="fa-dribbble"></i></a></li>
-						</ul>
-					</div>
-					<div class="col-lg-6 wow fadeInUp delay-06s">
-						<div class="form">
-							<div id="sendmessage">Your message has been sent. Thank you!</div>
-							<div id="errormessage"></div>
-							<form action="" method="post" role="form" class="contactForm">
-								<div class="form-group">
-									<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-									<div class="validation"></div>
-								</div>
-								<div class="form-group">
-									<input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-									<div class="validation"></div>
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-									<div class="validation"></div>
-								</div>
-								<div class="form-group">
-									<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-									<div class="validation"></div>
-								</div>
-
-								<button type="submit" class="btn input-btn">SEND MESSAGE</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>-->
 		<div class="container">
 			<div class="footer_bottom">
 				<span>© UEL</span>
 				<div class="credits">
 					
 					Espera-se criar uma ferramenta de acesso gratuito para contribuir para a sociedade brasileira no combate a disseminação de notícias falsas e divulgação de informação legítima e de qualidade por meio de um agente inteligente. As notícias falsas e a desinformação são tão nocivas quanto a própria doença, podendo levar a danos emocionais e agravamento dos indivíduos.
-
-          
-					Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 				</div>
 			</div>
 		</div>
