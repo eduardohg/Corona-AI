@@ -147,6 +147,7 @@ p{
 	}
 	
 .nav ul{
+	margin-top: 50px;
 	list-style:none;
 	padding:0px;
 	}
@@ -168,7 +169,7 @@ p{
 	}
 	
 .nav ul li:last-child{
-	margin:0 0 0 23px;
+	margin:0 0 0 0px;
 	}
 	
 .nav ul li a{
@@ -1754,8 +1755,9 @@ img {
 	}
 	
 	#nome_uel{
-		margin-left: -20px;
-		margin-top: 10px;
+		position: absolute;
+		margin-left: 10px;
+		margin-top: 20px;
 		font-size: 20px;
 		font-family: "penguin";
 		color: white;
