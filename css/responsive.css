@@ -177,10 +177,10 @@
 	.c-logo-part ul li{ margin:6px 0px; display:block;}
 	#iframe-dialogflow{
 		position: relative;
-		left: 5px;
+		margin: 0;
 	}
-	#header_outer{
-		background-color: brown;
+	.service_block{
+		padding-right: 5px;
 	}
 	
 }
