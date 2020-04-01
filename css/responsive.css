@@ -65,7 +65,7 @@
 	.client_area{ width:436px;}
 	.quote_section{ width:auto; float:none;}
 	.service_area{ padding:25px 0px;}
-	.service_block{ margin:0 5px 20px 0;}
+	.service_block{ margin:0 0 20px 0;}
 	#service{ padding:20px 0px;}
 	.work_section{ padding:25px 0px;} 
 	#work_outer{background:none; padding:25px 0px; }
@@ -175,6 +175,10 @@
 	.quote_section p{ font-size:15px;} 
 	.c-logo-part{ padding:18px 0px;}
 	.c-logo-part ul li{ margin:6px 0px; display:block;}
+	#iframe-dialogflow{
+		position: relative;
+		left: 5px;
+	}
 	#header_outer{
 		background-color: brown;
 	}
