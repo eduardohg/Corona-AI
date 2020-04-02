@@ -191,5 +191,9 @@
 	#nome_uel{
 		font-size: 18px;
 	}
+	#logo_uel{
+		width: 40px;
+		height: 40px;
+	}
 	
 }
