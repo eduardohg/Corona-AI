@@ -125,7 +125,7 @@ p{
 
 #header_outer{
 	background:#00753B;
-	padding:30px 0px;
+	padding:20px 0px;
 	}
 
 .header_section{
@@ -141,7 +141,9 @@ p{
 
 /* Nav Styles
 ---------------------------------*/
-	
+.menu_mobile{
+	margin-bottom: 5px;
+}	
 .nav{
 	float:right;
 	}
@@ -1745,6 +1747,8 @@ img {
 		border-style: solid;
 		border-width: 1px;
 		border-radius: 10px;
+		width: 350px;
+		height: 430px;
 	}
 
 	@font-face{

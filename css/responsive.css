@@ -125,7 +125,7 @@
 	.nav ul li{ border-bottom:1px solid #CCC; display:block; float:none; width:100%; margin:0px; text-align:center;}
 	.nav ul li a{ padding:6px 0px}
 	.res-nav_click{ 
-		bottom: -42px;
+		bottom: -37px;
 		display: block;
 		font-size: 25px;
 		left: 48%;
@@ -159,6 +159,13 @@
 	
 }
 
+@media only screen and(min-width: 356px){
+	#header_outer{
+		background-color: lawngreen;
+	}
+	
+}
+
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	#filters ul li{ display:block;}
@@ -178,9 +185,11 @@
 	#iframe-dialogflow{
 		position: relative;
 		margin: 0;
+		width: 290px;
+		height: 400px;
 	}
-	.service_block{
-		padding-right: 5px;
+	#nome_uel{
+		font-size: 18px;
 	}
 	
 }
