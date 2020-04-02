@@ -195,5 +195,9 @@
 		width: 40px;
 		height: 40px;
 	}
+
+	#header_outer{
+		background-color: lawngreen;
+	}
 	
 }
